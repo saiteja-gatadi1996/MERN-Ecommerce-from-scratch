@@ -19,7 +19,7 @@ import Message from '../components/Message'
 const ProductScreen = ({ history, match }) => {
   // const [product, setProduct] = useState({})
 
-  const [qty, setQty] = useState(0)
+  const [qty, setQty] = useState(1)
   const dispatch = useDispatch()
 
   //productDetails is called in store, selector takes in as the arrow function
